@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>aa</title>
+</head>
+<body>
+<FORM action="form1.php"method="POST">
+<fieldset>
+  <legend>Formularz kontaktowy</legend>
+  <div>
+    <td>Imię i Nazwisko:</td>
+    <td><INPUT name="imie_i_nazwisko"></td>
+  </div>
+  <div>
+    <td>Adres e-mail:</td>
+    <td> <INPUT type="email" name="email"></td>
+  </div>
+  <div>
+    <td>Telefon kontaktowy:</td>
+    <td><INPUT type ="numer" name="telefon_kontaktowy"></td>
+  </div>
+  <div>
+    <td>Wybierz temat:</td>
+    <td>
+      <SELECT name="wybierz_temat">
+        <OPTION value="wykonanie_stront_internetowej">Wykonanie strony internetowej</OPTION>
+      </SELECT>
+    </td>
+  </div>
+  <div>
+    <td>Tresc wiadomosci:</td>
+    <td>
+      <TEXTAREA name="tresc_wiadomosci" cols="10" rows="7">Wpisz tutaj tresc swojej wiadomosci...</TEXTAREA>
+    </td>
+  </div>
+  <div>
+    <td>Preferowana forma kontaktu:</td>
+    <td>
+      <INPUT TYPE="checkbox" id="email" name="email">
+      <label for="email">E-mail</label>
+    </td>
+    <td>
+      <INPUT TYPE="checkbox" id="telefon" name="telefon">
+      <label for="telefon">Telefon</label>
+    </td>
+  </div>
+  <div>
+    <td>Posiadasz juz strone www?</td>
+    <td>
+      <INPUT type="radio" id="tak" name="tak">
+      <label for="tak">Tak</label>
+    </td>
+    <td>
+      <INPUT type="radio" id="nie" name="nie">
+      <label for="nie">Nie</label>
+    </td>
+  </div>
+  <div>
+    <td>Zalaczniki</td>
+    <td>
+      <INPUT type="file" name="plik">
+    </td>
+  </div>
+</fieldset>
+  <td>&nbsp;</td>
+  <td><INPUT type="submit" value="Wyślij"></td>
+
+</body>
+</html>
