@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator</title>
+</head>
+<body>
+<FORM action="kalkulator_skrypt.php"method="POST">
+    KALKULATOR
+    <table>
+        <tr>
+            <TD>PROSTY</TD>
+        </tr>
+        <tr>
+            <td><input type="number" name="liczba1"></td>
+            <td>
+                <select name="dzialanie_proste">
+                    <option value="dodawanie" name="dodawanie">dodawanie</option>
+                    <option value="odejmowanie"name="odjemowanie">odejmowanie</option>
+                    <option value="mnozenie" name="mnozenie">mnozenie</option>
+                    <option value="dzielenie" name="dzielenie">dzielenie</option>
+                </select>
+            </td>
+            <td><input type="number" name="liczba2"></td>
+        </tr>
+    </table>
+    <td><INPUT type="submit" value="oblicz"></td>
+    <table>
+        <tr>
+            <td>ZLOZONY</td>
+        </tr>
+        <tr>
+            <td><input type="number" name="liczba3"></td>
+            <td>
+                <select name="dzialanie_zlozone">
+                    <option value="cos" name="cos">cos</option>
+                    <option value="sin" name="sin">sin</option>
+                    <option value="tan" name="tan">tan</option>
+                    <option value="binarne_na_dziesietne" name="binarne_na_dziesietne">binarne na dziesietne</option>
+                    <option value="dziesietne_na_szesnastkowe" name="dziesietne_na_szesnastkowe">dziesietne na szesnastkowe</option>
+                    <option value="szesnastkowe_na_dziesietne" name="szesnastkowe_na_dziesietne">szesnastkowe na dziesietne</option>
+                    <option value="stopnie_na_radiany" name="stopnie_na_radiany">stopnie na radiany</option>
+                    <option value="radiany_na_stopnie" name="radiany_na_stopnie">radiant na stopnie</option>
+                </select>
+            </td>
+        </tr>
+        <td><INPUT type="submit" value="oblicz"></td>
+    </table>
+</FORM>
+</body>
+</html>
